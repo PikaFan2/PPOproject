@@ -1,0 +1,16 @@
+{
+  "name": "Anti-phisher",
+  "description": "Это расширение служит для обнаружения мошеннических сайтов. Внимание: это сырой продукт, не стоит ему всецело доверять!",
+  "version": "1.1",
+/*
+ "content_scripts": [{
+     "matches": ["http://*/*", "https://*/*", "file://*"],
+     "js": ["background1.js"]
+ }],
+*/ 
+  "icons": {
+	"128": "128.png"
+  },
+  "permissions": [ "tabs", "http://*/*", "storage" ],
+  "manifest_version": 3
+}
